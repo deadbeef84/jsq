@@ -1,0 +1,30 @@
+{
+  "name": "jsq-cli",
+  "version": "0.0.0",
+  "main": "src/index.mjs",
+  "homepage": "https://github.com/deadbeef84/jsq#readme",
+  "bin": {
+    "jsq": "src/index.mjs"
+  },
+  "author": "Jesper Ek <deadbeef84@gmail.com>",
+  "license": "MIT",
+  "prettier": {
+    "printWidth": 100,
+    "semi": false,
+    "singleQuote": true
+  },
+  "engines": {
+    "node": ">=22.0.0"
+  },
+  "dependencies": {
+    "@fast-csv/format": "^5.0.5",
+    "@fast-csv/parse": "^5.0.5",
+    "acorn": "^8.15.0",
+    "astring": "^1.9.0",
+    "js-yaml": "^4.1.0",
+    "json-colorizer": "^3.0.1",
+    "lodash": "^4.17.21",
+    "split2": "^4.2.0",
+    "table": "^6.9.0"
+  }
+}
